@@ -6,7 +6,6 @@ const SetCounter = () => {
   const [startTime, setStartTime] = useState(0);
   const [count, setCount] = useState(0);
   const [running, setRunning] = useState(false);
-  const [firstBoot, setFirstBoot] = useState(true);
 
   const isFirstUpdate = useRef(true);
 
